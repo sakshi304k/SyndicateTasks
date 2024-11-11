@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="task01" />
         <module name="task02" />
+        <module name="SyndicateTasks" />
+        <module name="task04" />
       </profile>
     </annotationProcessing>
   </component>
