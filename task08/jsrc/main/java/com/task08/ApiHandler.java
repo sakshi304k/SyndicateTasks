@@ -21,6 +21,7 @@ import java.io.IOException;
 		roleName = "api_handler-role",
 		layers = "sdk-layer",
 		runtime = DeploymentRuntime.JAVA11,
+		aliasName = "${lambdas_alias_name}",
 		architecture = Architecture.ARM64,
 		logsExpiration = RetentionSetting.SYNDICATE_ALIASES_SPECIFIED
 )
