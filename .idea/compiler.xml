@@ -16,8 +16,10 @@
         <module name="task04" />
         <module name="task01" />
         <module name="task02" />
-        <module name="task10" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="task10" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
